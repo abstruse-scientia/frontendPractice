@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MedievalSharp&family=Outfit:wght@100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+
+.social-link-card{
+    padding: 1.5rem;
+    background-color: hsl(0, 0%, 12%); 
+    border-radius: 0.4rem; 
+
+}
+
+#profile-pic{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-bottom: 0.8rem;
+}
+
+
+
+.personal-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#address-para{
+    margin-top: 0.3rem;
+    margin-bottom: 0.7rem;
+    color: hsl(75, 94%, 57%);
+}
+
+#designation{
+    text-align: center;
+    margin-bottom: 0.8rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 12px;
+}
+.social-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.social-links .links{
+    border: none;
+    padding: 0.6rem 0.4rem 0.6rem 0.4rem;
+    border-radius: 0.4rem;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+}
+
+.social-links .links:hover{
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+}
+
